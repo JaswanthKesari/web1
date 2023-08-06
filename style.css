@@ -1,0 +1,167 @@
+body{
+    background-image: url(b3.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+    display:flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    margin-left:0px;
+    background-image: radial-gradient(silver,white,red);
+
+}
+nav ul li{
+    
+    display: inline-block;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a{
+    background-image: radial-gradient(white,red);
+    color: red;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: large;
+    border:2px solid white;
+    border-radius: 20%;
+}
+nav{
+    margin-left: 20px;
+}
+.grid{
+    display: grid;
+    display: flex;
+    color: aliceblue;
+    font-size: large; 
+}
+#about{
+    padding:2px;
+    color: white;
+    text-align: center;
+}
+.para{
+    padding: 50px;
+    font-size: x-large;
+}
+.grid1{
+    display: grid;
+    display: flex;
+    color: aliceblue;
+    font-size: large; 
+}
+#menu{
+    
+    text-align: center;
+    color: white; 
+}
+.item1,.item2,.item3,.item4,.item5,.item6{
+    background-image: radial-gradient(white,grey);
+    color: black;
+}
+
+#products{
+    text-align: center;
+    color: white; 
+}
+.pro1:hover{
+    transition-delay: 0s;
+    transition-duration: 5s;
+    margin-top:50px
+}
+.pro2:hover{
+    transition-delay: 0s;
+    transition-duration: 5s;
+    margin-top:50px
+}
+.pro3:hover{
+    transition-delay: 0s;
+    transition-duration: 5s;
+    margin-top:50px
+}
+.pro4:hover{
+    transition-delay: 0s;
+    transition-duration: 5s;
+    margin-top:50px
+}
+.pro5:hover{
+    transition-delay: 0s;
+    transition-duration: 5s;
+    margin-top:50px
+}
+.pro6:hover{
+    transition-delay: 0s;
+    transition-duration: 5s;
+    margin-top:50px
+}
+#move{
+    margin-left: 200px;
+    width:80%;
+    height: 800px;
+    background-color: black;
+    overflow: auto auto;
+    white-space: nowrap;
+}
+#vid{
+    text-align: center;
+}
+#move,.slide{
+    display: inline-block;
+}
+#review{
+    text-align: center;
+}
+.grid3,.grid4,.grid5{
+    display: grid;
+    display: flex;
+    color: aliceblue;
+    font-size: large; 
+}
+
+
+.p1,.p2,.p3{
+    padding: 50px;
+    font-size: xx-large;
+    transition-delay: 0s;
+    transition-duration: 5s;
+    margin-left:50px;
+    margin-top: 60px;
+}
+
+#videos{
+    color: red;
+    font-size: x-large;
+}
+.row{
+    display: flex;
+    
+}
+form{
+    padding: 30px;
+    border: 4px solid grey;
+    border-radius: 20%;
+}
+.inputbox{
+    color: black;
+    width: 400px;
+    height: 80px;
+}
+#contact{
+    text-align: center;
+    color: white; 
+}
+h1{
+    background-image: radial-gradient(white,grey);
+    color: black;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: large;
+    border:2px solid white;
+    border-radius: 20%;
+}
